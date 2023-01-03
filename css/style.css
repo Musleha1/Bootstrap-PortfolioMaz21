@@ -1,4 +1,4 @@
-/* Global styles ============= */
+/* Global styles */
 html,
 body {
   width: 100%;
@@ -11,8 +11,7 @@ body {
 }
 
 
-
-.photo {
+.photo-rounded {
   border-radius: 50%!important;
   height: 100px;
 }
@@ -50,7 +49,7 @@ p {
 }
 
 
-/* Navigation bar styles ============= */
+/* Navigation bar styles */
 
 #mainNav {
   background-color:#18033b;
@@ -81,9 +80,6 @@ p {
   color: #e06fd7;
 }
 
-/* .fa-bars::before {
-  content: ;
-} */
 
 .navbar-toggler:focus, .navbar-toggler:hover {
   text-decoration: none;
@@ -112,13 +108,12 @@ p {
   color: #129bf7;
 }
 
-/* Hero section ============= */
+/* Hero section */
 
 .jumbotron {
 
     background-image: url("../Images/window2.jpg");
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
     display: flex;
@@ -132,7 +127,7 @@ p {
 
   .jumboCopy {
     width: 70%;
-    min-width: 5s00px;
+    min-width: 500px;
     max-width: 700px;
     color: white;
     text-align: center;
@@ -151,9 +146,7 @@ p {
   }
 
   
-
-
-/* Skills */
+  /* Skills */
 
   .skills {
   background-color:#5c575ea9;
@@ -162,10 +155,8 @@ p {
   grid-column: auto;
  
   column-count: 2;
-
 }
  
-
 .row-skills {
   
   padding-top: 20px;
@@ -217,7 +208,7 @@ footer p {
 }
 
 
-footer ul {
+/* footer ul {
   margin-bottom: 0;
 }
 
@@ -230,7 +221,7 @@ footer ul li a {
 
 footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
   text-decoration: none;
-}
+} */
 
 
 .btn {
@@ -244,11 +235,16 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 
-@media screen and (max-width: 500px) {
+ @media screen and (max-width: 500px) {
   .purpleBackground {
-   background-size: 400px;
-  float:none;
-  width: 100%;
-}
+  background-size: 400px;
   
 }
+ }
+
+/* @media screen and (max-width: 500px) {
+  .skills col-md-2{
+    width:92%
+  }
+  
+} */
