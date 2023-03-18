@@ -6,6 +6,9 @@ I designed and built a portfolio layout using Bootstrap CSS Framework.
 
 https://musleha1.github.io/Bootstrap-PortfolioMaz21/
 
+![Screenshot (371)](https://user-images.githubusercontent.com/86237540/226135400-86fad0a8-880d-4a94-b3e6-dd223e6abb67.png)
+
+
 ## Installation
 
 N/A
